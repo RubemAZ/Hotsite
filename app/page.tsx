@@ -1,9 +1,8 @@
 'use client'
-import MarketingPage from "./templates/marketing-page/MarketingPage";
-import styles from "./page.module.css";
+import HomePage from "./templates/pages/HomePage";
 
 export default function Home() {
   return (
-    <MarketingPage/>
+    <HomePage/>
   );
 }
